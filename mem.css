@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+    color: #E2E0EE;
+    font-size: 2vw;
+    text-decoration: none;
+    /* list-style: square; */
+    /* z-index: -1; #51C9EC #E2E0EE #1D2846*/
+}
+
+*::-webkit-scrollbar {
+    display: none;
+}
+
+h1{
+    font-size: 3vw;
+}
+
+.section{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+}
+
+.text{
+    height: 100vh;
+    width: 50vw;
+    background-color: white;
+    align-items: center;
+    justify-content: space-evenly;
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    
+}
+
+.section li,h1{
+    color: #2C347D;
+    padding: 1vh;
+    list-style: square;
+}
+
+.image{
+    height: 100vh;
+    width: 50vw;
+    background-image: url(image/get.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+span{
+    height: 7vh;
+    width: 10vw;
+    background-color: chocolate;
+    color: blanchedalmond;
+    border: solid 2px black;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.text a:hover span{
+    background-color: greenyellow;
+    color: indigo;
+    height: 8vh;
+    width: 11vw;
+}
+/* .parallax{
+    background-attachment: local;
+    /* background-position: center; 
+    /* background-repeat: no-repeat; 
+    /* background-size: cover; 
+} */
+
+
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: none;
+    height: 15vh;
+    width: 100vw;
+}
+
+.nav img{
+    height: 5vw;
+    align-items:flex-start;
+}
+
+.nav ul{
+    width: 40vw;
+    list-style: none;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.nav a{
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.end{
+    display: flex;
+    flex-direction: column;
+    height: 20vh;
+    background-color: #E2E0EE;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.end ul{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    
+}
+
+.end img{
+    width: 5vw;
+}
