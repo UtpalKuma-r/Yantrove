@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+    color: #E2E0EE;
+    /* font-size: xx-large; */
+    /* z-index: -1; #51C9EC #E2E0EE #1D2846*/
+}
+
+*::-webkit-scrollbar {
+    display: none;
+}
+
+h1{
+    font-size: 5vw;
+}
+
+.end a{
+    font-size: xx-small;
+    color: black;
+}
+
+.nav{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* background-color: #1D2846; */
+    background: none;
+    /* background-image: linear-gradient(#2B3358, #374369, #4B4F75); */
+    height: 15vh;
+    width: 100vw;
+    z-index: 1;
+}
+
+.nav img{
+    height: 5vw;
+    align-items:flex-start;
+}
+
+.nav ul{
+    width: 40vw;
+    list-style: none;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+}
+
+.nav a{
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.parallax{
+    background-attachment: fixed;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.landing{
+    display: flex;
+    /* background-color: #2C347D; */
+    background-image: url(image/robot-handshake-human-background-futuristic-digital-age.jpg);
+    /* background-size: cover; */
+    height: 100vh;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.landing p{
+    font-size: 2vw;
+}
+
+.landing h1{
+    font-size: 10vw;
+}
+
+.about{
+    height: 100vh;
+    width: 100vw;
+    background-color: #E2E0EE;
+    color: #2C347D;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 3vw;
+}
+
+.gallery{
+    display: flex;
+    height: 100vh;
+    background-color: black;
+    background-image: url(image/3d-robot-hand-background-ai-technology-side-view.jpg);
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.end{
+    display: flex;
+    flex-direction: column;
+    height: 20vh;
+    background-color: #E2E0EE;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.end ul{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    
+}
+
+.end img{
+    width: 5vw;
+}
+/* image cradits
+<a href="https://www.freepik.com/free-photo/3d-robot-hand-background-ai-technology-side-view_17850536.htm#query=ai%20hand&position=10&from_view=keyword&track=ais">Image by rawpixel.com</a> on Freepik
+<a href="https://www.freepik.com/free-vector/curiosity-people-concept-illustration_30576696.htm#query=what%20i%20have%20to%20do&position=21&from_view=search&track=ais">Image by storyset</a> on Freepik
+Image by <a href="https://www.freepik.com/free-vector/hand-drawn-shrug-illustration_23629977.htm#fromView=search&term=what+will+i+get&page=1&position=2&track=ais&regularType=vector">Freepik</a>
+*/
